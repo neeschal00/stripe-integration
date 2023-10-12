@@ -1,14 +1,13 @@
 {% load static %}
 <header>
     <nav class="navbar navbar-light fixed-top">
-        <a href="#" class="navbar-brand"><h2 class="m-title font-weight-bold">NxK<span>Music</span></h2></a>
+        <a href="#" class="navbar-brand"><h2 class="m-title font-weight-bold">Django Subscription<span></span></h2></a>
         {% if user.is_authenticated %}
           <div class="nav-item">
             <div class="dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
-                  <img src="{{ user.profile.image.url }}" class="rounded-circle img-fluid rounded-circle profile-img"
-                    alt="avatar image">
+                  
                 </a>
                 <div class="dropdown-menu dropdown-menu-lg-right dropdown-secondary"
                   aria-labelledby="navbarDropdownMenuLink-55">
